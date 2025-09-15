@@ -14,7 +14,7 @@
   }
 
   .contact .contact-contact .contact-info{
-    width: 50%;
+    width: 60%;
   }
 
   .contact .contact-contact .contact-info div{
@@ -22,7 +22,7 @@
     line-height: 1.7;
   } 
   .contact .contact-contact .contact-info h3{
-    font-size: 30px;
+    font-size: 20px;
     color:#383848;
     margin-bottom:10px;
   }
