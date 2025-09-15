@@ -338,6 +338,24 @@ a{
   }
   /* responsive */
   
+h1 {
+  font-size: 4rem;
+  color: #0d4782;
+  text-align: center;
+  animation: slideIn 2s ease-in-out infinite alternate;
+}
+
+/* Animation keyframes */
+@keyframes slideIn {
+  from {
+    transform: translateX(-50px);
+    color: #e74c3c;
+  }
+  to {
+    transform: translateX(50px);
+    color: #3498db;
+  }
+}
 
 
     
