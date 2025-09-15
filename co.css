@@ -1,0 +1,73 @@
+/* contact start */
+.contact{
+    padding: 5rem 0;
+    background:#f4f4f4;
+  }
+
+  .contact.container{
+   max-width:900px;
+  }
+  .contact .contact-contact{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+
+  .contact .contact-contact .contact-info{
+    width: 50%;
+  }
+
+  .contact .contact-contact .contact-info div{
+    margin:30px 0;
+    line-height: 1.7;
+  } 
+  .contact .contact-contact .contact-info h3{
+    font-size: 30px;
+    color:#383848;
+    margin-bottom:10px;
+  }
+  
+  .contact .contact-contact .contact-info p{
+    color:#9a9a9a;
+  }
+
+  .contact .contact-contact .contact-info i{
+    color:#fbc531;
+    margin-right:10px; 
+  }
+
+  .contact .contact-contact .contact-info a i{
+    color:#fff;
+    background-color:#383848;
+    padding:15px;
+    border-radius:50%;
+  }
+
+  .contact .contact-contact .contact-info a i:hover{
+    background:#fbc531;
+    color:#383848;
+  }
+
+  form{
+    width:50%;
+  }
+    
+  .form input,
+  textarea{
+    display:block;
+    width:100%;
+    padding:20px 15px; /*paddiding:15px 20 px;*/
+    margin:20px;
+    border:none;
+    background-color:#fff;
+  }
+
+  #contact .btn{
+    background:#f4f4f4;
+    color:#fbc531;
+  }
+
+  #contact .btn:hover{
+    background-color:#fff;
+    cursor:pointer;
+  }
